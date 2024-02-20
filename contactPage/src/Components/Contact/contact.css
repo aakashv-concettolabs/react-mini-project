@@ -1,0 +1,79 @@
+.container {
+  height: calc(100vh-72px);
+  padding: 50px 0 0 180px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5a5959;
+  width: 820px;
+}
+
+.detailForm {
+  /* background-color: aqua; */
+  margin-top: 50px;
+}
+
+.contactBtn {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+button {
+  width: 190px;
+  height: 40px;
+  padding: 10px, 15px;
+  border-radius: 5px;
+  gap: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.emailBtn {
+  width: 100%;
+  background: transparent;
+  color: black;
+  margin: 5px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  all: unset;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+.detailContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailForm {
+  width: 450px;
+  height: 357px;
+  gap: 23px;
+}
+
+.submitBtn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+

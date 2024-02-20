@@ -1,0 +1,32 @@
+.onlineFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.onlineFriendProfileContainer {
+  margin-right: 10px;
+  position: relative;
+}
+
+.onlineFriendProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.onlineStatus {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: -2;
+  right: 0;
+  border: 2px solid white;
+}
+
+.onlineFriendUsername {
+  font-weight: 500;
+}
